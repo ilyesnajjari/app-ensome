@@ -1,0 +1,78 @@
+/* DataTable.css */
+.dataTableContainer {
+    padding: 20px;
+}
+
+.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dataTable thead {
+    background-color: #34495e; /* Darker shade for the header */
+}
+
+.dataTable tr {
+    text-align: left;
+}
+
+.dataTable th, .dataTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.dataTable tr:nth-child(even) {
+    background-color: #d9e3f0;
+}
+
+.dataTable tr:nth-child(odd) {
+    background-color: #b3cde0;
+}
+
+/* styles.css */
+.date-input {
+    padding: 8px 12px; /* Espacement intérieur */
+    font-size: 16px; /* Taille de la police */
+    border: 2px solid #ccc; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    outline: none; /* Suppression de la bordure de focus */
+    margin-right: 10px; /* Espacement entre les boutons */
+}
+
+.view-button {
+    padding: 10px 20px; /* Espacement intérieur */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #007bff; /* Couleur de fond bleue */
+    color: #fff; /* Couleur du texte blanc */
+    cursor: pointer; /* Curseur pointeur au survol */
+    transition: background-color 0.3s; /* Transition fluide pour la couleur de fond */
+    margin-right: 10px; /* Espacement entre les boutons */
+}
+
+.view-button:last-child {
+    margin-right: 0; /* Supprime l'espace à droite du dernier bouton */
+}
+
+.view-button:hover {
+    background-color: #0056b3; /* Changement de couleur de fond au survol */
+}
+
+.return-button {
+    position: absolute;
+    right: 10px;
+    padding: 10px 20px; /* Espacement intérieur */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #ff4d4d; /* Couleur de fond rouge */
+    color: #fff; /* Couleur du texte blanc */
+    cursor: pointer; /* Curseur pointeur au survol */
+    transition: background-color 0.3s; /* Transition fluide pour la couleur de fond */
+    margin-right: 10px; /* Espacement entre les boutons */
+}
+
+.return-button:hover {
+    background-color: #ff3333; /* Changement de couleur de fond au survol */
+}
